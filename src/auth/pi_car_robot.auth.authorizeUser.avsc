@@ -3,5 +3,5 @@
     "type": "record",
     "name": "authorizeUser",
     "fields": [{"name": "token", "type": "string"},
-                {"name": "access", "type": "enum", "symbols": ["user", "admin"]}]
+                {"name": "access", "type": "string"}]
 }
