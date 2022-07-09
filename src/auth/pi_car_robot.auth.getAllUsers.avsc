@@ -5,8 +5,10 @@
     "fields": [
         {
             "name": "users",
-            "type": "array",
-            "items": "string"
+            "type": {
+                "type": "array",
+                "items": "string"
+            }
         }
     ]
 }

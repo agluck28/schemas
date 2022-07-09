@@ -2,6 +2,21 @@
     "namespace": "pi_car_robot.auth",
     "type": "record",
     "name": "authorizeUser",
-    "fields": [{"name": "token", "type": "string"},
-                {"name": "access", "type": "string"}]
+    "fields": [
+        {
+            "name": "token",
+            "type": "string"
+        },
+        {
+            "name": "access",
+            "type": {
+                "name": "access",
+                "type": "enum",
+                "symbols": [
+                    "admin",
+                    "user"
+                ]
+            }
+        }
+    ]
 }

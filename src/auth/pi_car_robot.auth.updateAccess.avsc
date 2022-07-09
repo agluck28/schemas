@@ -9,7 +9,14 @@
         },
         {
             "name": "access",
-            "type": "string"
+            "type": {
+                "name": "access",
+                "type": "enum",
+                "symbols": [
+                    "admin",
+                    "user"
+                ]
+            }
         }
     ]
 }
