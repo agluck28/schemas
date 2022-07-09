@@ -9,7 +9,8 @@
         },
         {
             "name": "msg",
-            "type": "string"
+            "type": ["null", "string"],
+            "default": null
         }
     ]
 }
