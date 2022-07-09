@@ -1,0 +1,11 @@
+{
+    "namespace": "pi_car_robot.common",
+    "type": "record",
+    "name": "standardRequest",
+    "fields": [
+        {
+            "name": "request",
+            "type": "boolean"
+        }
+    ]
+}

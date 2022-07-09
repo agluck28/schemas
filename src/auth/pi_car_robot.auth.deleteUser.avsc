@@ -1,0 +1,11 @@
+{
+    "namespace": "pi_car_robot.auth",
+    "type": "record",
+    "name": "deleteUser",
+    "fields": [
+        {
+            "name": "email",
+            "type": "string"
+        }
+    ]
+}

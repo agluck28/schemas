@@ -1,0 +1,15 @@
+{
+    "namespace": "pi_car_robot.common",
+    "type": "record",
+    "name": "standardResponse",
+    "fields": [
+        {
+            "name": "success",
+            "type": "boolean"
+        },
+        {
+            "name": "msg",
+            "type": "string"
+        }
+    ]
+}
