@@ -1,0 +1,15 @@
+{
+    "namespace": "pi_car_robot.auth",
+    "type": "record",
+    "name": "updateAccess",
+    "fields": [
+        {
+            "name": "email",
+            "type": "string"
+        },
+        {
+            "name": "access",
+            "type": "string"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "namespace": "pi_car_robot.auth",
+    "type": "record",
+    "name": "getAllUsers",
+    "fields": [
+        {
+            "name": "users",
+            "type": "array",
+            "items": "string"
+        }
+    ]
+}

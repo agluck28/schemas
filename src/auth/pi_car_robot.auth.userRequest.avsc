@@ -1,0 +1,19 @@
+{
+    "namespace": "pi_car_robot.auth",
+    "type": "record",
+    "name": "userRequest",
+    "fields": [
+        {
+            "name": "userName",
+            "type": "string"
+        },
+        {
+            "name": "password",
+            "type": "string"
+        },
+        {
+            "name": "access",
+            "type": "string"
+        }
+    ]
+}
