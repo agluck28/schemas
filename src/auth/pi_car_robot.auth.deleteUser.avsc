@@ -4,7 +4,7 @@
     "name": "deleteUser",
     "fields": [
         {
-            "name": "email",
+            "name": "userName",
             "type": "string"
         }
     ]
