@@ -4,7 +4,7 @@
     "name": "updateAccess",
     "fields": [
         {
-            "name": "email",
+            "name": "userName",
             "type": "string"
         },
         {
